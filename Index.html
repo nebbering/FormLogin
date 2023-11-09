@@ -4,32 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bem Vindo!</title>
+    <link rel="stylesheet" href="/Style.css">
+
+    <!-- FONTES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/Style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,300;0,500;1,100;1,300;1,500&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <main>
         <div class="conteiner">
-            <label for="user"></label>
-            <input type="text" id="user" name="user" placeholder="USUÁRIO">
 
-            <label for="password"></label>
-            <input type="password" id="password" name="password" placeholder="SENHA">
+            <div class="conteiner-login">
+                <form>
+                <input type="text" id="user" name="user" placeholder="USUÁRIO">
+                <input type="password" id="password" name="password" placeholder="SENHA">
 
-            <br>
+                <div class="options">
+                    <a href="">Cadastro</a>
+                    <a href="">Esqueci Minha Senha</a>
+                </div>
 
-            <label for="checkbox"></label>
-            <input type="checkbox" name="checkbox" id="checkbox">
+                <button id="login">LOGIN</button>
+                </form>
 
-            <a href="">Esqueci Minha Senha</a>
+            </div>
 
-            <br>
-
-            <label for="btn"></label>
-            <button id="login">LOGIN</button>
         </div>
     </main>
 
