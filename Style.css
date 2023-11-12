@@ -78,7 +78,16 @@ form {
     padding: 0 16px;
     justify-content: space-between;
     font-size: 15px;
+    transition: .2s ease-in-out;
 
+}
+
+.cad:hover {
+    transition: .3s ease-in-out;
+}
+
+.forgot:hover {
+    transition: .3s ease-in-out;
 }
 
 .cad:hover {
