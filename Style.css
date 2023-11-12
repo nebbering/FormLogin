@@ -78,7 +78,25 @@ form {
     padding: 0 16px;
     justify-content: space-between;
     font-size: 15px;
+
 }
+
+.cad:hover {
+    transform: scale(1.2)
+}
+
+.forgot:hover {
+    transform: scale(1.2)
+}
+
+/* @keyframes transf {
+    0% {
+        color: azure;
+    } 100% {
+        color: rgb(58, 149, 253);
+    }
+    
+} */
 
 .options a {
     color: azure;
@@ -93,6 +111,7 @@ button {
     border-radius: 5px;
     border: 1px solid rgb(58, 149, 253);
     padding: 3px;
+    
 }
 
 footer {
