@@ -88,15 +88,6 @@ a:hover {
     
 }
 
-/* @keyframes transf {
-    0% {
-        color: azure;
-    } 100% {
-        color: rgb(58, 149, 253);
-    }
-    
-} */
-
 .options a {
     color: azure;
 }
