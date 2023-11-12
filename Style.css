@@ -82,20 +82,10 @@ form {
 
 }
 
-.cad:hover {
+a:hover {
     transition: .3s ease-in-out;
-}
-
-.forgot:hover {
-    transition: .3s ease-in-out;
-}
-
-.cad:hover {
     transform: scale(1.2)
-}
-
-.forgot:hover {
-    transform: scale(1.2)
+    
 }
 
 /* @keyframes transf {
